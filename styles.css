@@ -1,0 +1,80 @@
+
+img:hover {
+  border-radius: 6px;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear;
+}
+img:hover {
+  border-radius: 50%;
+}
+
+
+/* The animation code */
+@keyframes example {
+    from {background-color: #33d6ff;}
+    to {background-color: green;}
+}
+
+/* The element to apply the animation to */
+button:hover {
+    background-color: #33d6ff;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+h1 {
+  font-family:sans-serif;
+  border-bottom: solid 3px #33d6ff;
+  width:1000px;
+  margin-left:48px;
+}
+
+ul.row {
+  list-style:none;
+width:1000px;
+padding:50px;
+}
+
+li.col {
+  width:290px;
+  height:300px;
+  margin-right:50px;
+  float:left;
+}
+
+
+button {
+  width:290px;
+  background-color:#33d6ff;
+  border-radius:0px;
+  border-style:none;
+  color:#ffffff;
+  padding: 10px;
+  font-size:15px;
+}
+
+img {
+  margin-bottom:-6px;
+}
+
+/*.plan {
+animation-duration:2.5s;
+animation-name: slidein;
+texta-align: center;
+color: #B85916;
+font-size: 1.8em;
+}
+
+
+.box {
+  background-image: images/"beach-1.jpg";
+  border-radius: 6px;
+  transition-property: background-image, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+}
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}*/
